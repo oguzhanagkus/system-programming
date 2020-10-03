@@ -1,6 +1,6 @@
 # Linux System Programming Projects
 
-These projects are my submissions for CSE344 - System Programming Course at Gebze Technical University.
+These projects are my submissions for CSE344 - System Programming course at Gebze Technical University.
 Handbooks of the course were The Linux Programming Interface and Advanced Linux Programming.
 
 Subjects of projects:
