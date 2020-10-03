@@ -1,7 +1,7 @@
 # Linux System Programming Projects
 
 These projects are my submissions for CSE344 - System Programming course at Gebze Technical University.
-Handbooks of the course were The Linux Programming Interface and Advanced Linux Programming.
+Handbooks of the course were "The Linux Programming Interface" and "Advanced Linux Programming".
 
 Subjects of projects:
 - HW01 --> File Input/Output and File Based Interprocess Communication
