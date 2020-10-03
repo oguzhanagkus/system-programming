@@ -1,0 +1,28 @@
+Ayse (10,25; 1.5) : orchid, rose, violet
+Fatma (-10,-15; 1.3) : clove, rose, daffodil
+Murat (-10,8; 1.1) : violet, daffodil, orchid
+
+client1 (0,4): orchid
+client2 (1,5): clove
+client3 (2,10): daffodil
+client4 (4,15): orchid
+client5 (8,-21): violet
+client6 (-1,21): orchid
+client7 (-6,20): rose
+client8 (-16,18): rose
+client9 (-12,-3): rose
+client10 (23,0): violet
+client11 (5,1): orchid
+client12 (7,-8): violet
+client13 (8,-3): clove
+client14 (9,8): orchid
+client15 (6,5): orchid
+client16 (2,6): clove
+client17 (-6,-4): daffodil
+client18 (-9,-6): daffodil
+client19 (-4,16): rose
+client20 (-9,26): orchid
+client21 (-4,-12): daffodil
+client22 (9,13): rose
+client23 (12,18): rose
+client24 (11,15): orchid
