@@ -274,7 +274,7 @@ void *resizer_function(void *arg) {
 
     pthread_setcancelstate(PTHREAD_CANCEL_DISABLE, NULL);
 
-    new_size = thread_count + (thread_count / 4);
+    new_size = round(thread_count * 1.25);
     if (new_size > maximum_count)
       new_size = maximum_count;
 
