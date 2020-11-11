@@ -10,4 +10,4 @@ Subjects of projects:
 - HW04 --> POSIX Threads and System V semaphores
 - HW05 --> POSIX Threads and Synchronization with Mutexes and Condition Variables
 - Midterm --> IPC with Unnamed POSIX Semaphores Shared Memory
-- Final --> IPC, POSIX Threads, Synchronization, Sockets 
+- Final --> IPC, POSIX Threads, Synchronization, Sockets
