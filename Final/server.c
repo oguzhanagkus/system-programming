@@ -63,7 +63,7 @@ int main(int argc, char *argv[]) {
   /* -------------------- */ // Argument checking
 
   if (port < 0 || port > 65535)
-  error_exit("Port number should be in [0, 65535] interval.", -1);
+    error_exit("Port number should be in [0, 65535] interval.", -1);
 
   if (start < 2)
     error_exit("Number of threads in the pool at startup should be at least 2!", -1);
@@ -144,7 +144,7 @@ int main(int argc, char *argv[]) {
 
   result = pthread_mutex_init(&load_mutex, NULL);
   if (result != 0)
-  error_handler("pthread_mutex_init() error", result);
+    error_handler("pthread_mutex_init() error", result);
 
   result = pthread_mutex_init(&queue_mutex, NULL);
   if (result != 0)
@@ -158,15 +158,15 @@ int main(int argc, char *argv[]) {
 
   result = pthread_cond_init(&waiting_connection, NULL);
   if (result != 0)
-  error_handler("pthread_cond_init() error", result);
+    error_handler("pthread_cond_init() error", result);
 
   result = pthread_cond_init(&available_thread, NULL);
   if (result != 0)
-  error_handler("pthread_cond_init() error", result);
+    error_handler("pthread_cond_init() error", result);
 
   result = pthread_cond_init(&resize_condition, NULL);
   if (result != 0)
-  error_handler("pthread_cond_init() error", result);
+    error_handler("pthread_cond_init() error", result);
 
   result = pthread_cond_init(&ready_to_write, NULL);
   if (result != 0)
